@@ -1,0 +1,56 @@
+% sonar offset
+H 58
+% threshold
+t 128
+% sd_threshold
+s 0.3
+% BIN or gray send
+b 0
+g 0
+% camera focus length in um
+f 1840
+% camera pixel size in um
+z 12
+% axis center r0
+R 122
+% axis center c0
+C 143
+% real diameter of the bigest black ring : ( out + inner )/2
+L 215
+% diameter threshold percent, not float
+O 30
+% lost limit
+o 50
+% PID parameter kp  6.0 , can't > 5 saturate easily 20cm  0.45 0.1 0.23 EVER SMALL  no wire 0.3 0.4 0.35
+p 0.45
+i 0.3
+d 0.3
+x 1.0
+y 1.0
+% roll pitch center
+N 1500
+E 1500
+% ratio yx
+a 1.0
+% v_limit up down
+m 2
+n 0.09
+% u limit
+u 0.25
+% i limit
+I 0.2
+% discrete time system period T
+T 0.02135
+% initial covariance
+c 0.01 0.0
+% w: input disturbance sd
+w 0.1
+% v0
+v 0.006
+% k_velocity
+e 0.0
+% k_height
+h 0.001
+% k_lean 0.2rad = 10
+l 0.05
+% there must have a newline at the end of file

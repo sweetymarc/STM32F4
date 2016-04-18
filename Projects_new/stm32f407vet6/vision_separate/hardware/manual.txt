@@ -1,0 +1,1 @@
+在用mission planner通过无线串口连接前，要把PIXHAWK的RX接到无线串口的TX，平常是接vision controller的，但不改也能观察，只是不能提取参数 16.2.18

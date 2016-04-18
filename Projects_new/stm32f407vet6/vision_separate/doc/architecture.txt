@@ -1,0 +1,24 @@
+DMA2_S1(15 lines)	(5,0)	blockReceived()
+DCMI_frame		(5,1) 	判断是否完整，若完整则触发软中断position_calc()
+uart_DMA
+sonar_IC
+position_calc		(7,0)
+
+division:
+printf.c  uart DMA_Tx DMA_Rx(5,2)
+sonar.c  system_tick 调用
+nrf.c   system_tick 调用
+camera.c  DMA中断，DCMI中断
+position_calc.c DCMI中断调用
+pwm.c 
+led & gpios
+wdg
+
+2015.11.29
+
+improvement: 
+kalman divide to time update & measurement update
+
+无线发射远离 超声波 和 磁强计
+
+丢失原因，
