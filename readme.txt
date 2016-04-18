@@ -1,2 +1,1 @@
-you should have "Drivers" and "Middlewares" folder in this directory, if you don't have, you can download them from st.com;
-标准库是必须的，可到st.com下载
+put library files at "D:\keil_lib\STM32Cube_FW_F4_V1.7.0\Drivers"
